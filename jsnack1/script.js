@@ -6,25 +6,17 @@ const numberList = [];
 
 let somma = 0;
 
-// do {
+do {
 
-//     const userNumber = Number(prompt("Inserisci un numero"));
+    const userNumber = Number(prompt("Inserisci un numero"));
 
-//     if(somma < 50) {
+    if(somma < 50) {
 
-//         numberList.push(userNumber);
+        numberList.push(userNumber);
 
-//         somma += userNumber;
-//     }
+        somma += userNumber;
+    }
 
-// } while (somma < 50);
-
-
-while (somma < 50) {
-    
-    numberList.push(userNumber);
-
-    somma += userNumber;
-}
+} while (somma < 50);
 
 console.log (somma)
